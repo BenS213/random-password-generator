@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.box h1 {
+    padding: 10px;
+}
+
+.box input {
+    margin: auto;
+    display: block;
+}
+
+.box .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box .btn {
+    padding: 10px;
+    margin: 10px 0;
+}
